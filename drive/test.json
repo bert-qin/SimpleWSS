@@ -1,0 +1,59 @@
+{
+    "1231174150": {
+        "variableMap": {
+            "934242760": {
+                "valueMap": {
+                    "Actual": {
+                        "attribute": {
+                            "type": "Actual",
+                            "value": "30",
+                            "mutability": "ReadOnly"
+                        },
+                        "characteristics": {
+                            "unit": "seconds",
+                            "dataType": "integer",
+                            "supportsMonitoring": false
+                        }
+                    }
+                },
+                "name": "MessageTimeOut",
+                "instance": "Default"
+            },
+            "1920896022": {
+                "valueMap": {
+                    "Actual": {
+                        "attribute": {
+                            "type": "Actual",
+                            "value": "3",
+                            "mutability": "ReadWrite"
+                        },
+                        "characteristics": {
+                            "dataType": "SequenceList",
+                            "valuesList": "0,1,2,3",
+                            "supportsMonitoring": false
+                        }
+                    }
+                },
+                "name": "NetworkConfigurationPriority",
+                "instance": "Default"
+            },
+            "1226029901": {
+                "valueMap": {
+                    "Actual": {
+                        "attribute": {
+                            "type": "Actual",
+                            "value": "FTP, FTPS, HTTP, HTTPS",
+                            "mutability": "ReadOnly"
+                        },
+                        "characteristics": {
+                            "dataType": "MemberList",
+                            "supportsMonitoring": false
+                        }
+                    }
+                },
+                "name": "FileTransferProtocols"
+            }
+        },
+        "name": "OCPPCommctrlr"
+    }
+}

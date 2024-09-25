@@ -1,0 +1,6 @@
+ocpp
+pywebio
+websockets
+pystray
+pycryptodome
+ntplib
